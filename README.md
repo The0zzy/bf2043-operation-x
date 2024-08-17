@@ -1,5 +1,7 @@
 # Operation-X
 
+![Operation-X](/docs/images/OPERATION_X_-_WORK_IN_PROGRESS.png "Operation-X")
+
 This is a Battlefield 2042 Portal game mode built in cooperation of the BF2043 and Portal Community Discord Servers.
 
 ## How the game mode works
