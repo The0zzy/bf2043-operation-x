@@ -1310,26 +1310,33 @@
                                                     "CONDITIONS": {
                                                       "block": {
                                                         "type": "conditionBlock",
-                                                        "id": "AckQB$,x?2Y2!Ko]cL~$",
+                                                        "id": "csDO@PHC6Q(rq.`wbmU~",
                                                         "inputs": {
                                                           "CONDITION": {
                                                             "block": {
-                                                              "type": "GetSoldierState",
-                                                              "id": "b;,Gn%yWxHxlt^G6{cne",
+                                                              "type": "GetVariable",
+                                                              "id": "gFXe;_@QL9.,Kj*(OBfL",
                                                               "inputs": {
                                                                 "VALUE-0": {
                                                                   "block": {
-                                                                    "type": "EventPlayer",
-                                                                    "id": "i%3!U}2%b%p9ZTg7f+4`"
-                                                                  }
-                                                                },
-                                                                "VALUE-1": {
-                                                                  "block": {
-                                                                    "type": "SoldierStateBoolItem",
-                                                                    "id": "_xDq{9qX:,:ERA^LZduE",
+                                                                    "type": "variableReferenceBlock",
+                                                                    "id": "a@|.NjP*mL.k}]a66CX@",
+                                                                    "extraState": {
+                                                                      "isObjectVar": true
+                                                                    },
                                                                     "fields": {
-                                                                      "VALUE-0": "SoldierStateBool",
-                                                                      "VALUE-1": "IsAlive"
+                                                                      "OBJECTTYPE": "Player",
+                                                                      "VAR": {
+                                                                        "id": "IRu4,i0nyGI*8goT1`+u"
+                                                                      }
+                                                                    },
+                                                                    "inputs": {
+                                                                      "OBJECT": {
+                                                                        "block": {
+                                                                          "type": "EventPlayer",
+                                                                          "id": "iCl}P4wOF2yav8.YhlfZ"
+                                                                        }
+                                                                      }
                                                                     }
                                                                   }
                                                                 }
@@ -1441,26 +1448,33 @@
                                                         "CONDITIONS": {
                                                           "block": {
                                                             "type": "conditionBlock",
-                                                            "id": "h_mFjc)Fen+LaXe.{wv7",
+                                                            "id": "P2H8xKfsXOqifAlMZirx",
                                                             "inputs": {
                                                               "CONDITION": {
                                                                 "block": {
-                                                                  "type": "GetSoldierState",
-                                                                  "id": "_8#]k2?~m4#ui8$iO59j",
+                                                                  "type": "GetVariable",
+                                                                  "id": "eUN@cP_IW_Ml?PJM9t23",
                                                                   "inputs": {
                                                                     "VALUE-0": {
                                                                       "block": {
-                                                                        "type": "EventPlayer",
-                                                                        "id": "G$l[:8A}x#+d?,xn}2/$"
-                                                                      }
-                                                                    },
-                                                                    "VALUE-1": {
-                                                                      "block": {
-                                                                        "type": "SoldierStateBoolItem",
-                                                                        "id": "R8@PqfS0s9XE?MZ4jFn*",
+                                                                        "type": "variableReferenceBlock",
+                                                                        "id": "m%ZpY;^ZI)!w~U2YC]L+",
+                                                                        "extraState": {
+                                                                          "isObjectVar": true
+                                                                        },
                                                                         "fields": {
-                                                                          "VALUE-0": "SoldierStateBool",
-                                                                          "VALUE-1": "IsAlive"
+                                                                          "OBJECTTYPE": "Player",
+                                                                          "VAR": {
+                                                                            "id": "IRu4,i0nyGI*8goT1`+u"
+                                                                          }
+                                                                        },
+                                                                        "inputs": {
+                                                                          "OBJECT": {
+                                                                            "block": {
+                                                                              "type": "EventPlayer",
+                                                                              "id": "`cA*:X4g)Owk:*iwCYD_"
+                                                                            }
+                                                                          }
                                                                         }
                                                                       }
                                                                     }
